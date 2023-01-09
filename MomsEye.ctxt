@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MomsEye
+comment0.text=\r\n\ Computer\ Science\ Final\ Project\r\n\ Teacher\:\ Mr.Chan\r\n\ Akathian\ Santhakumar,\ Ahmad\ Shah\ and\ Shivam\ Janda\r\n\ \r\n\ January\ 19,\ 2017\r\n\ \r\n\ Credits\:\r\n\ Greenfoot.org\r\n\ ^\r\n\ rkr\ profile\ on\ Greenfoot.org\ is\ Shivams\ profile\ (asked\ questions\ about\ code,\r\n\ had\ to\ paste\ part\ of\ our\ own\ code\ when\ asking\ the\ question)\r\n\ https\://www.mkyong.com/java/java-properties-file-examples/\r\n
+comment1.params=
+comment1.target=MomsEye()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ remove()
+numComments=4

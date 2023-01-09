@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=HeroBullet
+comment0.text=\r\n\ Computer\ Science\ Final\ Project\r\n\ Teacher\:\ Mr.Chan\r\n\ Akathian\ Santhakumar,\ Ahmad\ Shah\ and\ Shivam\ Janda\r\n\ \r\n\ January\ 19,\ 2017\r\n\ \r\n\ Credits\:\r\n\ Greenfoot.org\r\n\ ^\r\n\ rkr\ profile\ on\ Greenfoot.org\ is\ Shivams\ profile\ (asked\ questions\ about\ code,\r\n\ had\ to\ paste\ part\ of\ our\ own\ code\ when\ asking\ the\ question)\r\n\ https\://www.mkyong.com/java/java-properties-file-examples/\r\n
+comment1.params=
+comment1.target=void\ getProperties()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ HeroBullet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=boolean\ checkRemove()
+comment4.params=
+comment4.target=void\ remove()
+comment5.params=
+comment5.target=boolean\ atWorldEdge()
+comment6.params=
+comment6.target=void\ setDamage()
+comment7.params=
+comment7.target=void\ curve()
+comment8.params=
+comment8.target=void\ setBoolean()
+comment8.text=\r\nfollowing\ are\ helper\ methods\ for\ the\ bullet\ curve,\ basically\ gets\ information\ from\ the\ hero\ class\r\n
+comment9.params=
+comment9.target=void\ getExactKey()
+numComments=10

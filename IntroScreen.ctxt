@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=IntroScreen
+comment0.text=\r\n\ Computer\ Science\ Final\ Project\r\n\ Teacher\:\ Mr.Chan\r\n\ Akathian\ Santhakumar,\ Ahmad\ Shah\ and\ Shivam\ Janda\r\n\ \r\n\ January\ 19,\ 2017\r\n\ \r\n\ Credits\:\r\n\ Greenfoot.org\r\n\ ^\r\n\ rkr\ profile\ on\ Greenfoot.org\ is\ Shivams\ profile\ (asked\ questions\ about\ code,\r\n\ had\ to\ paste\ part\ of\ our\ own\ code\ when\ asking\ the\ question)\r\n\ https\://www.mkyong.com/java/java-properties-file-examples/\r\n
+comment1.params=
+comment1.target=IntroScreen()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ introScreen.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment3.params=
+comment3.target=void\ started()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ nextScreen()
+comment6.params=
+comment6.target=void\ changeIntro2()
+comment7.params=
+comment7.target=void\ changeOptions()
+comment8.params=
+comment8.target=void\ changeControls()
+numComments=9

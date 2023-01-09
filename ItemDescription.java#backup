@@ -1,0 +1,56 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.awt.Font;
+import java.awt.Color;
+import java.io.InputStream;
+
+/**
+ * Write a description of class tesst here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class ItemDescription extends Actor
+{
+    /**
+     * Act - do whatever the tesst wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        getImage().scale(950, 89);
+        d();
+    }    
+
+    public void d()     
+    {    
+        Font font = new Font("q",0,0);
+        InputStream is = d.class.getResourceAsStream("upheavtt.ttf");
+        Font uniFont = null;
+
+        // Font font = Font.createFont(Font.TRUETYPE_FONT, is);
+        // GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+        // ge.registerFont(font);
+        // GreenfootImage image = new GreenfootImage(300, 60);
+        // font = font.deriveFont(Font.PLAIN, 20);
+        // image.setFont(font);
+        // image.drawString("hello", 0, 0);
+        // setImage(image);
+
+        try {
+            uniFont=Font.createFont(Font.TRUETYPE_FONT,is);
+        }
+        catch(java.awt.FontFormatException r){
+            System.err.println("FontFormatException: " + r.getMessage());
+        }
+        catch(java.io.IOException r){
+            System.err.println("FontFormatException: " + r.getMessage());
+        }
+        Font dvs = new Font("Upheaval TT (BRK)", Font.PLAIN, 20);
+        GreenfootImage image = new GreenfootImage (600, 400);
+        dvs = uniFont.deriveFont(50f);//desired font size
+        image.setColor(java.awt.Color.white);  
+        image.setFont(dvs);
+        image.drawString("hello", 100, 200);
+        setImage(image);
+    }
+}
